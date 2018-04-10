@@ -1,6 +1,6 @@
 <%= link_to '<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>'.html_safe, root_path %>
 
-  <%= render 'programmer'%>
+  <%= render 'programmer' locals: {programmer: @programmer}%>
 
 
 
